@@ -22,7 +22,7 @@ module.exports={
       fs.unlinkSync(media)
       if (err) m.reply(err)
       let buffer = fs.readFileSync(ran)
-      client.sendMessage(m.from, { image: buffer,caption:'ETERNITY-2022' }, { quoted: m })
+      client.sendMessage(m.from, { image: buffer,caption:'ᴍɪɴᴀꜱᴇ' }, { quoted: m })
       fs.unlinkSync(ran)
   })
 } else if (m.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.isAnimated == true){
