@@ -31,7 +31,7 @@ module.exports = {
                 url: wife.data.url
             },
             caption: `*✈ Here you Go*`,
-            footer: `*©Eternity-Team*`,
+            footer: `*©ᴍɪɴᴀꜱᴇ*`,
             buttons: buttons,
             headerType: 4
         }
