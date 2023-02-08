@@ -4,7 +4,7 @@ const fs=require("fs")
 require ('../../../settings')
 module.exports={
     name:"yta",
-    alias:["ytmp3"],
+    alias:["ytmp3,aud"],
     usage:`${prefa}yta yotube_link`,
     desc:"Downloads the audio from youtube links",
     category:"Media",
@@ -18,7 +18,7 @@ await client.sendMessage(m.from,{
     contextInfo:{
         externalAdReply:{
             title:audio.meta.title,
-            body: "*©Eternity-Team*",
+            body: "*©ᴍɪɴᴀꜱᴇ*",
             thumbnail: await fetchBuffer(audio.meta.image),
             mediaType:2,
             mediaUrl:text,
