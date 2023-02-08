@@ -57,11 +57,11 @@ let cm=commands.keys()
         } else {
         var emo=["📖","🍁","🍀","🌊","🎵","🔞","🎟","♨️","🉐",]
         } 
-        let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Nezuko*.
+        let txt = `ʜᴀʟʟᴏ ᴛʜᴇʀᴇ ${pushName} ɪ'ᴍ *ɴᴇᴢᴜᴋᴏ*.
                        
 🧧 *Prefix :* [ ${prefix} ]
                        
-📝 Here's the *Commands* listed below :\n\n`
+ ʜᴇʀᴇ ᴀʀᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ :\n\n`
         const keys = Object.keys(category);
         for (const key of keys) {
             txt += `*${key.toUpperCase()} ${emo[keys.indexOf(key)]} :-*  \n\`\`\`${category[key]
@@ -77,7 +77,7 @@ let cm=commands.keys()
     let hbutto = {
         image: {url: eternitylogo.image},
         caption: txt,
-        footer: '©Eternity-Team',
+        footer: 'ᴍɪɴᴀꜱᴇ',
         buttons: Button,
         headerType: 4
     }
