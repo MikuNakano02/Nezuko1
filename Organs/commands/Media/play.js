@@ -5,9 +5,9 @@ const yts= require("yt-search")
 require ('../../../settings')
 module.exports={
     name:"play",
-    alias:["song"],
+    alias:["song,p"],
     usage:`${prefa}play <query>`,
-    desc:"Plays the song...",
+    desc:"Plays requested song",
     category:"Media",
     react:"✅",
     start:async(client,m,{command,prefix,text,args})=>{
@@ -24,7 +24,7 @@ await client.sendMessage(m.from,{
     contextInfo:{
         externalAdReply:{
             title:anu.title,
-            body: "*©Eternity-Team*",
+            body: "*ᴍɪɴᴀꜱᴇ*",
             thumbnail: await fetchBuffer(pl.meta.image),
             mediaType:2,
             mediaUrl:anu.url,
